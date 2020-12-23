@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../font/FontAwesome.eot');
+    src: local('FontAwesome'), local('FontAwesome'),
+        url('../font/FontAwesome.eot?#iefix') format('embedded-opentype'),
+        url('../font/FontAwesome.woff2') format('woff2'),
+        url('../font/FontAwesome.woff') format('woff'),
+        url('../font/FontAwesome.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'P22UndergroundCY';
+    src: url('../font/P22UndergroundCYProBook.eot');
+    src: local('P22UndergroundCYProBook'), local('P22UndergroundCYProBook'),
+        url('../font/P22UndergroundCYProBook.eot?#iefix') format('embedded-opentype'),
+        url('../font/P22UndergroundCYProBook.woff2') format('woff2'),
+        url('../font/P22UndergroundCYProBook.woff') format('woff'),
+        url('../font/P22UndergroundCYProBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'P22UndergroundCYProDemi';
+    src: url('../font/P22UndergroundCYProDemi.eot');
+    src: local('P22UndergroundCYProDemi'), local('P22UndergroundCYProDemi'),
+        url('../font/P22UndergroundCYProDemi.eot?#iefix') format('embedded-opentype'),
+        url('../font/P22UndergroundCYProDemi.woff2') format('woff2'),
+        url('../font/P22UndergroundCYProDemi.woff') format('woff'),
+        url('../font/P22UndergroundCYProDemi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'P22UndergroundCY';
+    src: url('../font/P22UndergroundCYProHeavy.eot');
+    src: local('P22UndergroundCYProHeavy'), local('P22UndergroundCYProHeavy'),
+        url('../font/P22UndergroundCYProHeavy.eot?#iefix') format('embedded-opentype'),
+        url('../font/P22UndergroundCYProHeavy.woff2') format('woff2'),
+        url('../font/P22UndergroundCYProHeavy.woff') format('woff'),
+        url('../font/P22UndergroundCYProHeavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}

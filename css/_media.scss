@@ -1,0 +1,36 @@
+// max-width
+@mixin max-width($size) {
+    @media screen and (max-width: #{$size}px){
+        @content;
+    }
+}
+// min-width
+@mixin min-width($size) {
+    @media screen and (min-width: #{$size}px){
+        @content;
+    }
+}
+// max-height
+@mixin max-height($size) {
+    @media screen and (max-height: #{$size}px){
+        @content;
+    }
+}
+// min-height
+@mixin min-height($size) {
+    @media screen and (min-height: #{$size}px){
+        @content;
+    }
+}
+// min-max-w
+@mixin min-max-w($sizemin,$sizemax) {
+    @media screen and (min-width: #{$sizemin}px) and (max-width: #{$sizemax}px){
+        @content;
+    }
+}
+// min-max-h
+@mixin min-max-w($sizemin,$sizemax) {
+    @media screen and (min-height: #{$sizemin}px) and (max-height: #{$sizemax}px){
+        @content;
+    }
+}

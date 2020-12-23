@@ -1,0 +1,108 @@
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 18px 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__link {
+        font-size: 16px;
+        line-height: 22px;
+        color: $white;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin-left: 60px;
+        transition: 0.2s linear;
+        &:first-child {
+            margin-left: 0;
+        }
+        &:hover {
+            color: $red;
+        }
+    }
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    &__phone {
+        font-size: 25px;
+        line-height: 22px;
+        font-weight: 900;
+        color: $red;
+    }
+    &__mail {
+        font-size: 18.5px;
+        line-height: 22px;
+        font-weight: 900;
+        color: $white;
+        text-transform: uppercase;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__item {
+        margin-left: 30px;
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}
+
+.gamburger {
+    width: 50px;
+    height: 25px;
+    cursor: pointer;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    span {
+        height: 3px;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 2px;
+    }
+}
+
+@import '_media';
+
+@include max-width(991){
+    .gamburger {
+        display: flex;
+        margin-left: 15px;
+    }
+    .header .logo{
+        margin-right: auto;
+    }
+    .header .navigation {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        background-color: #11110e;
+        z-index: 50;
+    }
+    .header .navigation__link {
+        margin: 5px 0;
+    }
+    .header .social__item {
+        margin-left: 15px;
+    }
+}
